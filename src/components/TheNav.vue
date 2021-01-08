@@ -1,0 +1,106 @@
+<template>
+  <nav>
+    <section class="hamburger" @click="toggleNav" v-if="navClosed">
+      <svg
+        width="26"
+        height="21"
+        viewBox="0 0 26 21"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line y1="1.5" x2="26" y2="1.5" stroke="#31D4DA" stroke-width="3" />
+        <line y1="10.5" x2="26" y2="10.5" stroke="#31D4DA" stroke-width="3" />
+        <line y1="19.5" x2="26" y2="19.5" stroke="#31D4DA" stroke-width="3" />
+      </svg>
+    </section>
+    <section class="nav-list" @click="toggleNav" v-else>
+      <svg
+        width="29"
+        height="21"
+        viewBox="0 0 29 21"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="1.14619"
+          y1="19.2667"
+          x2="27.1462"
+          y2="1.26671"
+          stroke="#31D4DA"
+          stroke-width="3"
+        />
+        <line
+          x1="1.85381"
+          y1="1.26671"
+          x2="27.8538"
+          y2="19.2667"
+          stroke="#31D4DA"
+          stroke-width="3"
+        />
+      </svg>
+      <ul>
+        <li><a href="#about">about</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#contacts">contacts</a></li>
+      </ul>
+    </section>
+  </nav>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      navClosed: true,
+    };
+  },
+  methods: {
+    toggleNav() {
+      this.navClosed = !this.navClosed;
+    },
+  },
+};
+</script>
+
+<style scoped>
+nav {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+svg {
+  align-self: flex-end;
+  margin: 1rem 1rem 0rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-align: center;
+  padding: 0.5em;
+}
+
+li:hover,
+li:focus {
+  cursor: pointer;
+  background-color: rgb(17, 17, 17);
+}
+li a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+li a:visited {
+  color: var(--main-text-color);
+}
+</style>
