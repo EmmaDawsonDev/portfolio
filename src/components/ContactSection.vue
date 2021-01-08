@@ -1,0 +1,65 @@
+<template>
+  <section>
+    <h2>Contact</h2>
+    <form action="">
+      <label for="name">Name</label><br />
+      <input type="text" placeholder="Name" name="name" /><br />
+      <label for="email">Email</label><br />
+      <input type="email" placeholder="Email address" name="email" /><br />
+      <label for="message">Message</label><br />
+      <textarea
+        placeholder="Type your message here..."
+        name="message"
+        id=""
+        cols="30"
+        rows="10"
+      ></textarea
+      ><br />
+      <button>SEND</button>
+    </form>
+  </section>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style scoped>
+section {
+  text-align: center;
+}
+
+form {
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+}
+
+label {
+  align-self: flex-start;
+  margin-bottom: -15px;
+}
+
+input,
+textarea {
+  background-color: black;
+  border: 1px solid var(--main-text-color);
+  width: 100%;
+  padding: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  border: 2px solid var(--main-text-color);
+  background-color: transparent;
+  color: var(--main-text-color);
+}
+</style>

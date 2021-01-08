@@ -39,7 +39,6 @@ a {
   padding: 0.5rem;
   text-transform: uppercase;
   border: 2px solid var(--main-text-color);
-  border-radius: 8px;
 }
 
 a + a {
@@ -50,7 +49,7 @@ a:visited {
   color: var(--main-text-color);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   article {
     display: flex;
     max-width: 80%;

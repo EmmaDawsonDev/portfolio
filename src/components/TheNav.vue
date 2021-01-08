@@ -45,6 +45,7 @@
       </ul>
     </section>
     <section class="nav-list-desktop">
+      <a href="#top" class="logo">ED</a>
       <ul>
         <li><a href="#about">about</a></li>
         <li><a href="#projects">projects</a></li>
@@ -116,6 +117,19 @@ li a:visited {
   display: none;
 }
 
+.logo {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Megrim", cursive;
+  color: var(--main-text-color);
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.logo:visited {
+  color: var(--main-text-color);
+}
+
 @media (min-width: 800px) {
   .hamburger,
   .nav-list-mobile {
@@ -123,7 +137,9 @@ li a:visited {
   }
 
   .nav-list-desktop {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .nav-list-desktop ul {

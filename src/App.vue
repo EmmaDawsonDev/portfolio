@@ -1,9 +1,11 @@
 <template>
   <div class="wrapper">
     <the-nav></the-nav>
-    <the-header></the-header>
+    <the-header id="top"></the-header>
     <about-section id="about"></about-section>
     <projects-section id="projects"></projects-section>
+    <skills-section></skills-section>
+    <contact-section id="contact"></contact-section>
   </div>
 </template>
 
@@ -12,10 +14,18 @@ import TheNav from "./components/TheNav.vue";
 import TheHeader from "./components/TheHeader.vue";
 import AboutSection from "./components/AboutSection.vue";
 import ProjectsSection from "./components/ProjectsSection.vue";
-
+import SkillsSection from "./components/SkillsSection.vue";
+import ContactSection from "./components/ContactSection.vue";
 export default {
   name: "App",
-  components: { TheNav, TheHeader, AboutSection, ProjectsSection },
+  components: {
+    TheNav,
+    TheHeader,
+    AboutSection,
+    ProjectsSection,
+    SkillsSection,
+    ContactSection,
+  },
 };
 </script>
 
