@@ -3,6 +3,7 @@
     <the-nav></the-nav>
     <the-header></the-header>
     <about-section id="about"></about-section>
+    <projects-section id="projects"></projects-section>
   </div>
 </template>
 
@@ -10,10 +11,11 @@
 import TheNav from "./components/TheNav.vue";
 import TheHeader from "./components/TheHeader.vue";
 import AboutSection from "./components/AboutSection.vue";
+import ProjectsSection from "./components/ProjectsSection.vue";
 
 export default {
   name: "App",
-  components: { TheNav, TheHeader, AboutSection },
+  components: { TheNav, TheHeader, AboutSection, ProjectsSection },
 };
 </script>
 
