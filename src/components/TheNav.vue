@@ -122,8 +122,9 @@ li a:visited {
   text-decoration: none;
   font-family: "Megrim", cursive;
   color: var(--main-text-color);
-  font-size: 1.5rem;
-  padding: 1rem;
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+  font-weight: bold;
 }
 
 .logo:visited {

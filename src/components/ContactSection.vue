@@ -1,6 +1,17 @@
 <template>
   <section>
     <h2>Contact</h2>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/emmalearnscode/"
+        ><img src="../assets/linkedin.png" alt="linkedin logo"
+      /></a>
+      <a href="https://github.com/emmalearnscode"
+        ><img src="../assets/github.png" alt="github logo"
+      /></a>
+      <a href="https://twitter.com/emmalearnscode"
+        ><img src="../assets/twitter.png" alt="twitter logo"
+      /></a>
+    </div>
     <form action="">
       <label for="name">Name</label><br />
       <input type="text" placeholder="Name" name="name" /><br />
@@ -56,10 +67,21 @@ textarea {
 
 button {
   margin: 1rem 0;
-  padding: 0.5rem;
+  padding: 0.3rem 1rem;
   text-transform: uppercase;
   border: 2px solid var(--main-text-color);
-  background-color: transparent;
-  color: var(--main-text-color);
+  background-color: var(--main-text-color);
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.social-links {
+  margin-bottom: 2rem;
+}
+
+.social-links img {
+  width: 40px;
+  margin: 0.5rem;
 }
 </style>
