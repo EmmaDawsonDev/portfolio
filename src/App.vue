@@ -2,16 +2,18 @@
   <div class="wrapper">
     <the-nav></the-nav>
     <the-header></the-header>
+    <about-section id="about"></about-section>
   </div>
 </template>
 
 <script>
 import TheNav from "./components/TheNav.vue";
 import TheHeader from "./components/TheHeader.vue";
+import AboutSection from "./components/AboutSection.vue";
 
 export default {
   name: "App",
-  components: { TheNav, TheHeader },
+  components: { TheNav, TheHeader, AboutSection },
 };
 </script>
 
@@ -42,5 +44,10 @@ body {
 h1,
 h2 {
   font-family: "Megrim", cursive;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 5rem 0 2rem;
 }
 </style>

@@ -13,7 +13,7 @@
         <line y1="19.5" x2="26" y2="19.5" stroke="#31D4DA" stroke-width="3" />
       </svg>
     </section>
-    <section class="nav-list" @click="toggleNav" v-else>
+    <section class="nav-list-mobile" @click="toggleNav" v-else>
       <svg
         width="29"
         height="21"
@@ -41,7 +41,14 @@
       <ul>
         <li><a href="#about">about</a></li>
         <li><a href="#projects">projects</a></li>
-        <li><a href="#contacts">contacts</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </section>
+    <section class="nav-list-desktop">
+      <ul>
+        <li><a href="#about">about</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#contact">contact</a></li>
       </ul>
     </section>
   </nav>
@@ -65,6 +72,7 @@ export default {
 <style scoped>
 nav {
   width: 100%;
+  min-height: 50px;
   max-width: 1200px;
   margin: 0 auto;
   background-color: #000;
@@ -93,7 +101,7 @@ li {
 li:hover,
 li:focus {
   cursor: pointer;
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(34, 34, 34);
 }
 li a {
   text-transform: uppercase;
@@ -102,5 +110,29 @@ li a {
 
 li a:visited {
   color: var(--main-text-color);
+}
+
+.nav-list-desktop {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .hamburger,
+  .nav-list-mobile {
+    display: none;
+  }
+
+  .nav-list-desktop {
+    display: block;
+  }
+
+  .nav-list-desktop ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav-list-desktop li {
+    margin: 1rem;
+  }
 }
 </style>
