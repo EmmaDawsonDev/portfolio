@@ -13,6 +13,7 @@
         <line y1="19.5" x2="26" y2="19.5" stroke="#31D4DA" stroke-width="3" />
       </svg>
     </section>
+
     <section class="nav-list-mobile" @click="toggleNav" v-else>
       <svg
         width="29"
@@ -39,6 +40,7 @@
         />
       </svg>
       <ul>
+        <li><a href="#top">Home</a></li>
         <li><a href="#about">about</a></li>
         <li><a href="#projects">projects</a></li>
         <li><a href="#contact">contact</a></li>
@@ -47,6 +49,7 @@
     <section class="nav-list-desktop">
       <a href="#top" class="logo">ED</a>
       <ul>
+        <li><a href="#top">Home</a></li>
         <li><a href="#about">about</a></li>
         <li><a href="#projects">projects</a></li>
         <li><a href="#contact">contact</a></li>
@@ -97,12 +100,13 @@ ul {
 li {
   text-align: center;
   padding: 0.5em;
+  transition: background-color 0.5s;
 }
 
 li:hover,
 li:focus {
   cursor: pointer;
-  background-color: rgb(34, 34, 34);
+  background-color: rgb(77, 75, 48);
 }
 li a {
   text-transform: uppercase;
