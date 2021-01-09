@@ -1,61 +1,63 @@
 <template>
-  <nav>
-    <section class="hamburger" @click="toggleNav" v-if="navClosed">
-      <svg
-        width="26"
-        height="21"
-        viewBox="0 0 26 21"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <line y1="1.5" x2="26" y2="1.5" stroke="#31D4DA" stroke-width="3" />
-        <line y1="10.5" x2="26" y2="10.5" stroke="#31D4DA" stroke-width="3" />
-        <line y1="19.5" x2="26" y2="19.5" stroke="#31D4DA" stroke-width="3" />
-      </svg>
-    </section>
+  <transition name="fade" appear>
+    <nav>
+      <section class="hamburger" @click="toggleNav" v-if="navClosed">
+        <svg
+          width="26"
+          height="21"
+          viewBox="0 0 26 21"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line y1="1.5" x2="26" y2="1.5" stroke="#31D4DA" stroke-width="3" />
+          <line y1="10.5" x2="26" y2="10.5" stroke="#31D4DA" stroke-width="3" />
+          <line y1="19.5" x2="26" y2="19.5" stroke="#31D4DA" stroke-width="3" />
+        </svg>
+      </section>
 
-    <section class="nav-list-mobile" @click="toggleNav" v-else>
-      <svg
-        width="29"
-        height="21"
-        viewBox="0 0 29 21"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <line
-          x1="1.14619"
-          y1="19.2667"
-          x2="27.1462"
-          y2="1.26671"
-          stroke="#31D4DA"
-          stroke-width="3"
-        />
-        <line
-          x1="1.85381"
-          y1="1.26671"
-          x2="27.8538"
-          y2="19.2667"
-          stroke="#31D4DA"
-          stroke-width="3"
-        />
-      </svg>
-      <ul>
-        <li><a href="#top">Home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#projects">projects</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>
-    </section>
-    <section class="nav-list-desktop">
-      <a href="#top" class="logo">ED</a>
-      <ul>
-        <li><a href="#top">Home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#projects">projects</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>
-    </section>
-  </nav>
+      <section class="nav-list-mobile" @click="toggleNav" v-else>
+        <svg
+          width="29"
+          height="21"
+          viewBox="0 0 29 21"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            x1="1.14619"
+            y1="19.2667"
+            x2="27.1462"
+            y2="1.26671"
+            stroke="#31D4DA"
+            stroke-width="3"
+          />
+          <line
+            x1="1.85381"
+            y1="1.26671"
+            x2="27.8538"
+            y2="19.2667"
+            stroke="#31D4DA"
+            stroke-width="3"
+          />
+        </svg>
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </section>
+      <section class="nav-list-desktop">
+        <a href="#top" class="logo">ED</a>
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </section>
+    </nav>
+  </transition>
 </template>
 
 <script>
@@ -133,6 +135,15 @@ li a:visited {
 
 .logo:visited {
   color: var(--main-text-color);
+}
+
+.fade-enter-active {
+  transition: all 5s ease;
+}
+
+.fade-enter-from {
+  opacity: 0;
+  top: -50px;
 }
 
 @media (min-width: 800px) {

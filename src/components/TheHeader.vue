@@ -1,9 +1,15 @@
 <template>
   <header>
     <div>
-      <h1>Emma Dawson</h1>
-      <h3>JAVASCRIPT DEVELOPER</h3>
-      <a href="#projects">See My Portfolio</a>
+      <transition name="fade1" appear>
+        <h1>Emma Dawson</h1>
+      </transition>
+      <transition name="fade2" appear>
+        <h3>JAVASCRIPT DEVELOPER</h3>
+      </transition>
+      <transition name="fade3" appear>
+        <a href="#projects">See My Portfolio</a>
+      </transition>
     </div>
   </header>
 </template>
@@ -56,6 +62,24 @@ a:hover {
   background-color: #000;
   color: var(--main-text-color);
   border: 2px solid var(--main-text-color);
+}
+
+.fade1-enter-active {
+  transition: opacity 10s ease;
+}
+
+.fade2-enter-active {
+  transition: opacity 13s ease;
+}
+
+.fade3-enter-active {
+  transition: opacity 13s ease;
+}
+
+.fade1-enter-from,
+.fade2-enter-from,
+.fade3-enter-from {
+  opacity: 0;
 }
 
 @media (min-width: 600px) {
