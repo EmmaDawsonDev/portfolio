@@ -4,14 +4,17 @@
       <img src="../assets/beer-wiki.png" alt="" />
     </section>
     <section class="project-desc">
+      <h3>Title</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, sunt
         mollitia facilis magnam, deserunt culpa explicabo vel, inventore tempora
         porro laborum non consequatur deserunt culpa explicabo vel, inventore
         tempora porro laborum non consequatur
       </p>
-      <a href="">View Code</a>
-      <a href="">View Site</a>
+      <div class="code-links">
+        <a href="">View Code</a>
+        <a href="">View Site</a>
+      </div>
     </section>
   </article>
 </template>
@@ -23,12 +26,16 @@ export default {};
 <style scoped>
 img {
   width: 90%;
-  margin: 2rem 0;
+  margin-bottom: 1rem;
   border: 2px solid var(--main-text-color);
 }
 
+.code-links {
+  margin-bottom: 3rem;
+}
+
 p {
-  margin: 2rem auto 3rem;
+  margin: 0rem auto 2rem;
   line-height: 1.8;
   padding: 1rem;
   max-width: 640px;
@@ -39,6 +46,7 @@ a {
   padding: 0.5rem;
   text-transform: uppercase;
   border: 2px solid var(--main-text-color);
+  margin-bottom: 3rem;
 }
 
 a + a {

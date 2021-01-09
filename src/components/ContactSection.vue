@@ -11,6 +11,9 @@
       <a href="https://twitter.com/emmalearnscode"
         ><img src="../assets/twitter.png" alt="twitter logo"
       /></a>
+      <a href="mailto:emma.l.dawson@gmail.com"
+        ><img src="../assets/email.png" alt="email logo"
+      /></a>
     </div>
     <form action="">
       <label for="name">Name</label><br />

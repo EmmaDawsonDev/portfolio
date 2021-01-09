@@ -60,6 +60,6 @@ h2 {
 
 h2 {
   font-size: 3rem;
-  margin: 5rem 0 2rem;
+  margin: 4rem 0 2rem;
 }
 </style>
