@@ -3,17 +3,7 @@
     <div>
       <h1>Emma Dawson</h1>
       <h3>JAVASCRIPT DEVELOPER</h3>
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/emmalearnscode/"
-          ><img src="../assets/linkedin.png" alt="linkedin logo"
-        /></a>
-        <a href="https://github.com/emmalearnscode"
-          ><img src="../assets/github.png" alt="github logo"
-        /></a>
-        <a href="https://twitter.com/emmalearnscode"
-          ><img src="../assets/twitter.png" alt="twitter logo"
-        /></a>
-      </div>
+      <a href="#projects">See My Portfolio</a>
     </div>
   </header>
 </template>
@@ -42,17 +32,30 @@ h1 {
 }
 
 h3 {
-  margin-top: 2rem;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   font-weight: 300;
 }
 
-.social-links {
-  margin-top: 1rem;
+a {
+  background: var(--main-text-color);
+  color: #000;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.5s;
 }
 
-.social-links img {
-  width: 25px;
-  margin: 0.5rem;
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  background-color: #000;
+  color: var(--main-text-color);
+  border: 2px solid var(--main-text-color);
 }
 
 @media (min-width: 600px) {

@@ -61,6 +61,7 @@ label {
 input,
 textarea {
   background-color: black;
+  color: var(--main-text-color);
   border: 1px solid var(--main-text-color);
   width: 100%;
   padding: 0.5rem;
@@ -77,6 +78,13 @@ button {
   color: #000;
   font-weight: bold;
   font-size: 1rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  color: var(--main-text-color);
+  background-color: #000;
 }
 
 .social-links {
@@ -86,5 +94,10 @@ button {
 .social-links img {
   width: 40px;
   margin: 0.5rem;
+  transition: transform 0.5s;
+}
+
+.social-links img:hover {
+  transform: scale(1.2);
 }
 </style>

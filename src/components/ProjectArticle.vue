@@ -1,7 +1,10 @@
 <template>
   <article>
     <section class="project-img">
-      <img :src="project.imgURL" alt="" />
+      <img
+        :src="require(`../assets/website-screenshots/${project.imgURL}.png`)"
+        alt="website screenshot"
+      />
     </section>
     <section class="project-desc">
       <h3>{{ project.name }}</h3>
@@ -33,6 +36,13 @@ img {
   margin-bottom: 3rem;
 }
 
+h3 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+
+  text-decoration: underline 1px;
+  text-underline-offset: 5px;
+}
 p {
   margin: 0rem auto 2rem;
   line-height: 1.8;
@@ -46,6 +56,7 @@ a {
   text-transform: uppercase;
   border: 2px solid var(--main-text-color);
   margin-bottom: 3rem;
+  transition: all 0.5s;
 }
 
 a + a {
@@ -54,6 +65,12 @@ a + a {
 
 a:visited {
   color: var(--main-text-color);
+}
+
+a:hover {
+  background-color: var(--main-text-color);
+  color: #000;
+  font-weight: bold;
 }
 
 @media (min-width: 700px) {

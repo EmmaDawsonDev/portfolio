@@ -14,8 +14,8 @@
 
     <p>
       The thing I love most about coding is that there’s always something new to
-      learn so it’s impossible to get bored. There’s so much that can be created
-      and so many different problems to solve.
+      learn so it’s impossible to get bored. There’s so many ways to be creative
+      and so many different problems to solve and I thrive on the challenge.
     </p>
     <p>
       I am currently studying Javascript Development at IT-Högskolan in
