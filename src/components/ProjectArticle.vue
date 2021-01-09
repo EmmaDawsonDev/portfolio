@@ -1,26 +1,25 @@
 <template>
   <article>
     <section class="project-img">
-      <img src="../assets/beer-wiki.png" alt="" />
+      <img :src="project.imgURL" alt="" />
     </section>
     <section class="project-desc">
-      <h3>Title</h3>
+      <h3>{{ project.name }}</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, sunt
-        mollitia facilis magnam, deserunt culpa explicabo vel, inventore tempora
-        porro laborum non consequatur deserunt culpa explicabo vel, inventore
-        tempora porro laborum non consequatur
+        {{ project.desc }}
       </p>
       <div class="code-links">
-        <a href="">View Code</a>
-        <a href="">View Site</a>
+        <a :href="project.codelink">View Code</a>
+        <a :href="project.sitelink">View Site</a>
       </div>
     </section>
   </article>
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["project"],
+};
 </script>
 
 <style scoped>
