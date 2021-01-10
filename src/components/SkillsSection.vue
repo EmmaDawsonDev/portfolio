@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section data-aos="fade-up" data-aos-duration="2000">
     <h2>Skills</h2>
     <section class="skills">
       <div class="logo">

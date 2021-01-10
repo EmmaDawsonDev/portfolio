@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section data-aos="fade-up" data-aos-duration="2000">
     <h2>About me</h2>
     <p>
       Hello! I’m Emma! I am a web developer originally from the UK but now
@@ -22,7 +22,12 @@
       Stockholm and looking for frontend or backend web development internships
       starting August 2021.
     </p>
-    <img src="../assets/emma-dawson.jpg" alt="Profile picture of Emma Dawson" />
+    <img
+      data-aos="fade-up"
+      data-aos-duration="2000"
+      src="../assets/emma-dawson.jpg"
+      alt="Profile picture of Emma Dawson"
+    />
   </section>
 </template>
 

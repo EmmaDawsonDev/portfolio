@@ -1,12 +1,12 @@
 <template>
   <article>
-    <section class="project-img">
+    <section class="project-img" data-aos="fade-right" data-aos-duration="2000">
       <img
         :src="require(`../assets/website-screenshots/${project.imgURL}.png`)"
         alt="website screenshot"
       />
     </section>
-    <section class="project-desc ">
+    <section class="project-desc" data-aos="fade-left" data-aos-duration="2000">
       <h3>{{ project.name }}</h3>
       <p>
         {{ project.desc }}
@@ -39,9 +39,6 @@ img {
 h3 {
   margin-bottom: 1rem;
   font-size: 1.4rem;
-
-  text-decoration: underline 1px;
-  text-underline-offset: 5px;
 }
 p {
   margin: 0rem auto 2rem;
@@ -56,7 +53,7 @@ a {
   text-transform: uppercase;
   border: 2px solid var(--main-text-color);
   margin-bottom: 3rem;
-  transition: all 0.5s;
+  transition: all 0.5s ease-out;
 }
 
 a + a {
@@ -71,6 +68,7 @@ a:hover {
   background-color: var(--main-text-color);
   color: #000;
   font-weight: bold;
+  transition: all 0.5s ease-out;
 }
 
 @media (min-width: 700px) {

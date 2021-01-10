@@ -84,6 +84,7 @@ nav {
   background-color: #000;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 section {
   display: flex;
@@ -102,13 +103,14 @@ ul {
 li {
   text-align: center;
   padding: 0.5em;
-  transition: background-color 0.5s;
+  transition: background-color 0.5s ease;
 }
 
 li:hover,
 li:focus {
   cursor: pointer;
-  background-color: rgb(77, 75, 48);
+  background-color: rgba(255, 238, 0, 0.301);
+  transition: background-color 0.5s ease;
 }
 li a {
   text-transform: uppercase;
@@ -138,7 +140,7 @@ li a:visited {
 }
 
 .fade-enter-active {
-  transition: all 3s ease;
+  transition: all 2.5s ease;
 }
 
 .fade-enter-from {

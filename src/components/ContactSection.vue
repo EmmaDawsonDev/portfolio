@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section data-aos="fade-up" data-aos-duration="2000">
     <h2>Contact</h2>
     <div class="social-links">
       <a href="https://www.linkedin.com/in/emmalearnscode/"
@@ -41,6 +41,7 @@ export default {};
 <style scoped>
 section {
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 form {
@@ -78,13 +79,14 @@ button {
   color: #000;
   font-weight: bold;
   font-size: 1rem;
-  transition: all 0.5s;
+  transition: all 0.5s ease-out;
   cursor: pointer;
 }
 
 button:hover {
   color: var(--main-text-color);
   background-color: #000;
+  transition: all 0.5s ease-out;
 }
 
 .social-links {
