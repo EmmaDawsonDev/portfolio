@@ -16,7 +16,7 @@ const projects = [
       "Built in Vue JS, E-wallet is a single page application with the ability to add and remove credit cards, display the current active card and see all available cards. The page has two different views: the Home view where all cards are visible and the Add Card view where new cards are added and then appear in Home. All changes are seen dynamically on screen.",
     codelink:
       "https://github.com/emmalearnscode/iths-e-wallet/tree/main/e-wallet-project",
-    sitelink: "",
+    sitelink: "https://emmalearnscode.github.io/iths-e-wallet/",
   },
 ];
 
