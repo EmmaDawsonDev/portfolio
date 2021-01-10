@@ -6,7 +6,7 @@
         alt="website screenshot"
       />
     </section>
-    <section class="project-desc">
+    <section class="project-desc ">
       <h3>{{ project.name }}</h3>
       <p>
         {{ project.desc }}

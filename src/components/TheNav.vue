@@ -138,7 +138,7 @@ li a:visited {
 }
 
 .fade-enter-active {
-  transition: all 5s ease;
+  transition: all 3s ease;
 }
 
 .fade-enter-from {
