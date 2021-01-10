@@ -113,6 +113,7 @@ li:focus {
   transition: background-color 0.5s ease;
 }
 li a {
+  color: var(--main-text-color);
   text-transform: uppercase;
   text-decoration: none;
 }
