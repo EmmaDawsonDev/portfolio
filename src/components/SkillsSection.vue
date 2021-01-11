@@ -1,7 +1,7 @@
 <template>
   <section data-aos="fade-up" data-aos-duration="2000">
     <h2>Skills</h2>
-    <section class="skills">
+    <article class="skills">
       <div class="logo">
         <img src="../assets/logos/js-img.png" alt="Javascript Logo" />
         <p>Javascript</p>
@@ -53,7 +53,7 @@
         />
         <p>Responsive Design</p>
       </div>
-    </section>
+    </article>
   </section>
 </template>
 
@@ -64,6 +64,8 @@ export default {};
 <style scoped>
 section {
   text-align: center;
+  padding-top: 5.4rem;
+  margin-top: -5.4rem;
 }
 
 .skills {

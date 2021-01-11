@@ -38,6 +38,8 @@ export default {};
 <style scoped>
 section {
   text-align: center;
+  padding-top: 5.4rem;
+  margin-top: -5.4rem;
 }
 
 p {
@@ -53,9 +55,9 @@ p:first-of-type {
 
 img {
   width: 80%;
-  max-width: 400px;
+  max-width: 380px;
   border-radius: 50%;
   border: 5px solid var(--main-text-color);
-  margin: 3rem 0 1rem;
+  margin: 2.3rem 0 1rem;
 }
 </style>

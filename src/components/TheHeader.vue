@@ -20,7 +20,7 @@ header {
   height: 100vh;
 
   background-image: url("../assets/bg-img-small.jpg");
-  background-position: bottom 50px center;
+  background-position: bottom 100px center;
   background-repeat: no-repeat;
   background-size: 100%;
   text-align: center;

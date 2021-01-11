@@ -28,5 +28,7 @@ export default {
 <style scoped>
 section {
   text-align: center;
+  padding-top: 5.4rem;
+  margin-top: -5.4rem;
 }
 </style>

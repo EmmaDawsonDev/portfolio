@@ -42,7 +42,9 @@ export default {};
 <style scoped>
 section {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
+  padding-top: 5.4rem;
+  margin-top: -5.4rem;
 }
 
 form {
