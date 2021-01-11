@@ -55,7 +55,7 @@ export default {};
 }
 section {
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
   padding-top: 2rem;
   margin-top: 2rem;
 }
