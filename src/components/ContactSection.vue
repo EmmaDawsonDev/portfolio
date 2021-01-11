@@ -120,8 +120,8 @@ button:hover {
 
 @media (min-width: 750px) {
   section {
-    padding-top: 5.4rem;
-    margin-top: -5.4rem;
+    padding-top: 6rem;
+    margin-top: -6rem;
   }
 }
 </style>
