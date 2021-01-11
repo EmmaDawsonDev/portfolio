@@ -43,8 +43,8 @@ export default {};
 section {
   text-align: center;
   margin-bottom: 5rem;
-  padding-top: 5.4rem;
-  margin-top: -5.4rem;
+  padding-top: 2rem;
+  margin-top: 2rem;
 }
 
 form {
@@ -104,5 +104,12 @@ button:hover {
 
 .social-links img:hover {
   transform: scale(1.2);
+}
+
+@media (min-width: 750px) {
+  section {
+    padding-top: 5.4rem;
+    margin-top: -5.4rem;
+  }
 }
 </style>
