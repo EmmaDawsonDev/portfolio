@@ -15,13 +15,7 @@
         ><img src="../assets/email.png" alt="email logo"
       /></a>
     </div>
-    <form
-      name="portfolio-contact"
-      data-netlify="true"
-      data-netlify-recaptcha="true"
-      netlify-honeypot="bot-field"
-      method="POST"
-    >
+    <form name="portfolio-contact" method="POST" data-netlify="true">
       <label for="name">Name</label><br />
       <input type="text" placeholder="Name" name="name" /><br />
       <label for="email">Email</label><br />
@@ -35,12 +29,7 @@
         rows="10"
       ></textarea
       ><br />
-      <p class="hidden">
-        <label
-          >Don’t fill this out if you’re human: <input name="bot-field"
-        /></label>
-      </p>
-      <div data-netlify-recaptcha="true"></div>
+
       <button>SEND</button>
     </form>
   </section>
@@ -101,9 +90,6 @@ button:hover {
   transition: all 0.5s ease-out;
 }
 
-.hidden {
-  display: none;
-}
 .social-links {
   margin-bottom: 2rem;
 }

@@ -20,7 +20,7 @@ header {
   height: 100vh;
 
   background-image: url("../assets/bg-img-small.jpg");
-  background-position: bottom center;
+  background-position: bottom 50px center;
   background-repeat: no-repeat;
   background-size: 100%;
   text-align: center;
@@ -73,6 +73,7 @@ a:hover {
 @media (min-width: 600px) {
   header {
     background-image: url("../assets/bg-img-large.jpg");
+    background-position: bottom center;
   }
 }
 @media (max-height: 700px) {
