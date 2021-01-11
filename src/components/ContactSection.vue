@@ -21,6 +21,7 @@
       netlify-honeypot="bot-field"
       data-netlify="true"
     >
+      <input type="hidden" name="form-name" value="portfolio-contact" />
       <label for="name">Name</label><br />
       <input type="text" placeholder="Name" name="name" /><br />
       <label for="email">Email</label><br />
