@@ -15,7 +15,7 @@
         ><img src="../assets/email.png" alt="email logo"
       /></a>
     </div>
-    <form name="portfolio-contact" method="POST" data-netlify="true">
+    <form name="portfolio-contact" method="POST" netlify>
       <label for="name">Name</label><br />
       <input type="text" placeholder="Name" name="name" /><br />
       <label for="email">Email</label><br />
