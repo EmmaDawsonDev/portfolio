@@ -22,19 +22,19 @@
       data-netlify="true"
     >
       <input type="hidden" name="form-name" value="portfolio-contact" />
-      <label for="name">Name</label><br />
-      <input type="text" placeholder="Name" name="name" /><br />
-      <label for="email">Email</label><br />
-      <input type="email" placeholder="Email address" name="email" /><br />
-      <label for="message">Message</label><br />
+      <label for="name">Name</label>
+      <input type="text" placeholder="Name" name="name" required />
+      <label for="email">Email</label>
+      <input type="email" placeholder="Email address" name="email" required />
+      <label for="message">Message</label>
       <textarea
         placeholder="Type your message here..."
         name="message"
         id=""
         cols="30"
         rows="10"
-      ></textarea
-      ><br />
+        required
+      ></textarea>
       <p class="hidden">
         <label
           >Don’t fill this out if you’re human: <input name="bot-field"
@@ -72,7 +72,6 @@ form {
 
 label {
   align-self: flex-start;
-  margin-bottom: -15px;
 }
 
 input,
