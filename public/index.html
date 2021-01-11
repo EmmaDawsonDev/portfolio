@@ -20,6 +20,33 @@
         continue.</strong
       >
     </noscript>
+    <form
+      name="portfolio-contact"
+      method="POST"
+      netlify-honeypot="bot-field"
+      data-netlify="true"
+      hidden
+    >
+      <label for="name">Name</label><br />
+      <input type="text" placeholder="Name" name="name" /><br />
+      <label for="email">Email</label><br />
+      <input type="email" placeholder="Email address" name="email" /><br />
+      <label for="message">Message</label><br />
+      <textarea
+        placeholder="Type your message here..."
+        name="message"
+        id=""
+        cols="30"
+        rows="10"
+      ></textarea
+      ><br />
+      <p class="hidden">
+        <label
+          >Don’t fill this out if you’re human: <input name="bot-field"
+        /></label>
+      </p>
+      <button>SEND</button>
+    </form>
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>

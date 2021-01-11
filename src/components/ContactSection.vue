@@ -15,7 +15,12 @@
         ><img src="../assets/email.png" alt="email logo"
       /></a>
     </div>
-    <form name="portfolio-contact" method="POST" netlify>
+    <form
+      name="portfolio-contact"
+      method="POST"
+      netlify-honeypot="bot-field"
+      data-netlify="true"
+    >
       <label for="name">Name</label><br />
       <input type="text" placeholder="Name" name="name" /><br />
       <label for="email">Email</label><br />
@@ -29,7 +34,11 @@
         rows="10"
       ></textarea
       ><br />
-
+      <p class="hidden">
+        <label
+          >Don’t fill this out if you’re human: <input name="bot-field"
+        /></label>
+      </p>
       <button>SEND</button>
     </form>
   </section>
@@ -40,6 +49,9 @@ export default {};
 </script>
 
 <style scoped>
+.hidden {
+  display: none;
+}
 section {
   text-align: center;
   margin-bottom: 5rem;
