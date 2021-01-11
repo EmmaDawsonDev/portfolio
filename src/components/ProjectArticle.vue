@@ -51,6 +51,7 @@ a {
   text-decoration: none;
   padding: 0.5rem;
   text-transform: uppercase;
+  color: var(--main-text-color);
   border: 2px solid var(--main-text-color);
   margin-bottom: 3rem;
   transition: all 0.5s ease-out;

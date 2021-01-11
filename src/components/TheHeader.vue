@@ -18,6 +18,7 @@ export default {};
 <style scoped>
 header {
   height: 100vh;
+
   background-image: url("../assets/bg-img-small.jpg");
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -72,6 +73,19 @@ a:hover {
 @media (min-width: 600px) {
   header {
     background-image: url("../assets/bg-img-large.jpg");
+  }
+}
+@media (max-height: 700px) {
+  header {
+    place-items: start center;
+    padding-top: 100px;
+  }
+}
+@media (max-height: 450px) {
+  header {
+    place-items: start center;
+    padding-top: 100px;
+    background-image: none;
   }
 }
 </style>
