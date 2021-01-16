@@ -3,7 +3,7 @@
     <div>
       <h1 class="animate__animated animate__fadeInUp">Emma Dawson</h1>
 
-      <h3 class="animate__animated animate__fadeInUp">JAVASCRIPT DEVELOPER</h3>
+      <p class="animate__animated animate__fadeInUp">JAVASCRIPT DEVELOPER</p>
       <transition name="fade1" appear>
         <a href="#projects">See My Portfolio</a>
       </transition>

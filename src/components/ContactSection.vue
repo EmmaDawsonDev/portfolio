@@ -23,14 +23,20 @@
     >
       <input type="hidden" name="form-name" value="portfolio-contact" />
       <label for="name">Name</label>
-      <input type="text" placeholder="Name" name="name" required />
+      <input type="text" placeholder="Name" id="name" name="name" required />
       <label for="email">Email</label>
-      <input type="email" placeholder="Email address" name="email" required />
+      <input
+        type="email"
+        placeholder="Email address"
+        id="email"
+        name="email"
+        required
+      />
       <label for="message">Message</label>
       <textarea
         placeholder="Type your message here..."
         name="message"
-        id=""
+        id="message"
         cols="30"
         rows="10"
         required
