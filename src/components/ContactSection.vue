@@ -72,6 +72,7 @@ form {
 
 label {
   align-self: flex-start;
+  margin-bottom: 0.3rem;
 }
 
 input,
@@ -82,7 +83,7 @@ textarea {
   width: 100%;
   padding: 0.5rem;
   font-family: "Roboto", sans-serif;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 button {
