@@ -76,13 +76,14 @@ a:hover {
     background-position: bottom center;
   }
 }
-@media (max-height: 700px) {
+@media (max-height: 750px) {
   header {
     place-items: start center;
     padding-top: 100px;
+    background-position: bottom center;
   }
 }
-@media (max-height: 450px) {
+@media (max-height: 540px) {
   header {
     place-items: start center;
     padding-top: 100px;
