@@ -35,7 +35,7 @@ h1 {
   line-height: 0.8;
 }
 
-h3 {
+p {
   font-size: 1.5rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -63,7 +63,7 @@ a:hover {
 }
 
 .fade1-enter-active {
-  transition: opacity 5s ease;
+  transition: opacity 3s ease;
 }
 
 .fade1-enter-from {
