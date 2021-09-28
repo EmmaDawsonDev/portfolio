@@ -1,6 +1,15 @@
 const projects = [
   {
     id: 1,
+    name: "Sinus Webshop",
+    imgURL: "sinus-webshop",
+    desc:
+      "An e-commerce store built in Vue JS with VueX and routing. Customers can create an account to save their information and there is also an admin interface to create, read, update and delete products and orders.",
+    codelink: "https://github.com/emmalearnscode/sinus-webshop",
+    sitelink: "https://youtu.be/rikf5ZNmD6I",
+  },
+  {
+    id: 2,
     name: "Beer Wiki",
     imgURL: "beer-wiki",
     desc:
@@ -9,7 +18,7 @@ const projects = [
     sitelink: "https://emmalearnscode.github.io/js10-vanilla-slutprojekt/",
   },
   {
-    id: 2,
+    id: 3,
     name: "E-wallet",
     imgURL: "e-wallet",
     desc:
