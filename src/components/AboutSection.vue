@@ -20,7 +20,7 @@
     <p>
       I am currently studying Javascript Development at IT-Högskolan in
       Stockholm and looking for frontend or backend web development internships
-      starting August 2021.
+      starting January 2022.
     </p>
     <img
       data-aos="fade-up"
