@@ -15,8 +15,28 @@
         <p>CSS</p>
       </div>
       <div class="logo">
+        <img src="../assets/logos/materialui-img.png" alt="Material UI Logo" />
+        <p>Material UI</p>
+      </div>
+      <div class="logo">
         <img src="../assets/logos/vue-img.png" alt="Vue Logo" />
         <p>Vue</p>
+      </div>
+      <div class="logo">
+        <img src="../assets/logos/react-img.png" alt="React Logo" />
+        <p>React</p>
+      </div>
+      <div class="logo">
+        <img src="../assets/logos/typescript-img.png" alt="Typescript Logo" />
+        <p>Typescript</p>
+      </div>
+      <div class="logo">
+        <img src="../assets/logos/react-img.png" alt="React Logo" />
+        <p>React Native</p>
+      </div>
+      <div class="logo">
+        <img src="../assets/logos/expo-img.png" alt="React Logo" />
+        <p>Expo</p>
       </div>
       <div class="logo">
         <img src="../assets/logos/node-img.png" alt="node Logo" />
@@ -25,6 +45,14 @@
       <div class="logo">
         <img src="../assets/logos/npm-img.png" alt="npm Logo" />
         <p>NPM</p>
+      </div>
+      <div class="logo">
+        <img src="../assets/logos/sqlite-img.png" alt="sqlite Logo" />
+        <p>SQLite</p>
+      </div>
+      <div class="logo">
+        <img src="../assets/logos/mongodb-img.png" alt="mongodb Logo" />
+        <p>mongodb</p>
       </div>
       <div class="logo">
         <img src="../assets/logos/vscode-img.png" alt="vscode Logo" />
