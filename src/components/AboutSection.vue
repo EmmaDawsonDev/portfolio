@@ -2,7 +2,7 @@
   <section data-aos="fade-up" data-aos-duration="2000">
     <h2>About me</h2>
     <p>
-      Hello! I’m Emma! I am a web developer originally from the UK but now
+      Hello! I’m Emma! I am a full stack web developer originally from the UK but now
       residing in a sleepy suburb of Stockholm, Sweden.
     </p>
     <p>
@@ -17,11 +17,7 @@
       learn so it’s impossible to get bored. There’s so many ways to be creative
       and so many different problems to solve and I thrive on the challenge.
     </p>
-    <p>
-      I am currently studying Javascript Development at IT-Högskolan in
-      Stockholm and looking for frontend or backend web development internships
-      starting January 2022.
-    </p>
+    
     <img
       data-aos="fade-up"
       data-aos-duration="2000"

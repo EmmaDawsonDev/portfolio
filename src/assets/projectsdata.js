@@ -1,6 +1,24 @@
 const projects = [
   {
-    id: 1,
+    id: 5,
+    name: 'geoQuizzr',
+    imgURL: 'geoquizzr',
+    desc:
+      'A full stack map-based quiz app where users answer questions based on their location and collect points for correct answers. The front end is powered by React, Redux and Typescript which communicates with a Node/Express API and MongoDB database.',
+    codelink: 'https://github.com/emmalearnscode/gq-frontend',
+    sitelink: 'https://geoquizzr.netlify.app/',
+  },
+  {
+    id: 4,
+    name: 'MeetApp',
+    imgURL: 'meetapp',
+    desc:
+      'A mock version of meetup.com. Users can find events in their local area, login, register and unregister for events, chat, leave a rating and create their own events. The site is built using React, Redux and Typescript using Test Driven Development (Jest and React Testing Library).',
+    codelink: 'https://github.com/emmalearnscode/tdd-meetup',
+    sitelink: 'https://tddmeetapp.netlify.app/',
+  },
+  {
+    id: 3,
     name: 'Företagspoolen ITHS Stockholm',
     imgURL: 'foretagspoolen',
     desc:
@@ -18,22 +36,13 @@ const projects = [
     sitelink: 'https://youtu.be/rikf5ZNmD6I',
   },
   {
-    id: 3,
+    id: 1,
     name: 'Beer Wiki',
     imgURL: 'beer-wiki',
     desc:
       'A single page application where you can search for a variety of beers, created using the punkIPA API, written in HTML, CSS and JavaScript. It is possible to acess a randomly chosen beer, search simply by name or do an advanced search. The site is fully mobile-responsive.',
     codelink: 'https://github.com/emmalearnscode/js10-vanilla-slutprojekt',
     sitelink: 'https://emmalearnscode.github.io/js10-vanilla-slutprojekt/',
-  },
-  {
-    id: 4,
-    name: 'E-wallet',
-    imgURL: 'e-wallet',
-    desc:
-      'Built in Vue JS, E-wallet is a single page application with the ability to add and remove credit cards, display the current active card and see all available cards. The page has two different views: the Home view where all cards are visible and the Add Card view where new cards are added and then appear in Home. All changes are seen dynamically on screen.',
-    codelink: 'https://github.com/emmalearnscode/iths-e-wallet/tree/main/e-wallet-project',
-    sitelink: 'https://emmalearnscode.github.io/iths-e-wallet/',
   },
 ]
 
