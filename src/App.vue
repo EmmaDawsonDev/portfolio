@@ -61,6 +61,6 @@ h2 {
 
 h2 {
   font-size: 3rem;
-  margin: 4rem 0 2rem;
+  margin: 2rem 0;
 }
 </style>

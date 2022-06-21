@@ -2,17 +2,17 @@
   <section data-aos="fade-up" data-aos-duration="2000">
     <h2>Contact</h2>
     <div class="social-links">
-      <a href="https://www.linkedin.com/in/emmalearnscode/"
-        ><img src="../assets/linkedin.png" alt="linkedin logo"
+      <a href="https://www.linkedin.com/in/emmalearnscode/" aria-label="LinkedIn profile"
+        ><img src="../assets/linkedin.png" alt="linkedin"
       /></a>
-      <a href="https://github.com/emmalearnscode"
-        ><img src="../assets/github.png" alt="github logo"
+      <a href="https://github.com/emmalearnscode" aria-label="Github profile"
+        ><img src="../assets/github.png" alt="github"
       /></a>
-      <a href="https://twitter.com/emmalearnscode"
-        ><img src="../assets/twitter.png" alt="twitter logo"
+      <a href="https://twitter.com/emmalearnscode" aria-label="Twitter profile"
+        ><img src="../assets/twitter.png" alt="twitter"
       /></a>
-      <a href="mailto:emma.l.dawson@gmail.com"
-        ><img src="../assets/email.png" alt="email logo"
+      <a href="mailto:emma.l.dawson@gmail.com" aria-label="Email me"
+        ><img src="../assets/email.png" alt="email"
       /></a>
     </div>
     <form

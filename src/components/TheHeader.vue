@@ -17,8 +17,7 @@ export default {};
 
 <style scoped>
 header {
-  height: 100vh;
-
+  height: calc(100vh - 67px);
   background-image: url("../assets/bg-img-small.jpg");
   background-position: bottom 100px center;
   background-repeat: no-repeat;
@@ -83,7 +82,7 @@ a:hover {
     background-position: bottom center;
   }
 }
-@media (max-height: 540px) {
+@media (max-height: 640px) {
   header {
     place-items: start center;
     padding-top: 100px;

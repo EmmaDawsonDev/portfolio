@@ -3,7 +3,7 @@
     <section class="project-img" data-aos="fade-right" data-aos-duration="2000">
       <img
         :src="require(`../assets/website-screenshots/${project.imgURL}.png`)"
-        alt="website screenshot"
+        :alt="`${project.name} website screenshot`"
       />
     </section>
     <section class="project-desc" data-aos="fade-left" data-aos-duration="2000">
@@ -12,8 +12,8 @@
         {{ project.desc }}
       </p>
       <div class="code-links">
-        <a :href="project.codelink">View Code</a>
-        <a :href="project.sitelink">View Site</a>
+        <a :href="project.codelink" :aria-label="`View ${project.name} code`">View Code</a>
+        <a :href="project.sitelink" :aria-label="`View ${project.name} site`">View Site</a>
       </div>
     </section>
   </article>

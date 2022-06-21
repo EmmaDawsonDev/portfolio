@@ -28,14 +28,6 @@ export default {
 <style scoped>
 section {
   text-align: center;
-  padding-top: 2rem;
-  margin-top: -2rem;
-}
-
-@media (min-width: 750px) {
-  section {
-    padding-top: 5.4rem;
-    margin-top: -5.4rem;
   }
-}
+
 </style>
