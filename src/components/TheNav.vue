@@ -1,5 +1,4 @@
 <template>
-  <transition name="fade" appear>
     <nav>
       <section class="hamburger" @click="toggleNav" v-if="navClosed">
         <button class="hamburger-btn">
@@ -61,7 +60,6 @@
         </ul>
       </section>
     </nav>
-  </transition>
 </template>
 
 <script>
@@ -144,14 +142,6 @@ li a:visited {
   color: var(--main-text-color);
 }
 
-.fade-enter-active {
-  transition: all 1.5s ease;
-}
-
-.fade-enter-from {
-  opacity: 0;
-  top: -50px;
-}
 
 @media (min-width: 800px) {
   .hamburger,

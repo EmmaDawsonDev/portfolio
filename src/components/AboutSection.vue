@@ -1,5 +1,5 @@
 <template>
-  <section data-aos="fade-up" data-aos-duration="2000">
+  <section>
     <h2>About me</h2>
     <p>
       Hello! I’m Emma! I am a full stack web developer originally from the UK but now
@@ -19,10 +19,8 @@
     </p>
     
     <img
-      data-aos="fade-up"
-      data-aos-duration="2000"
       src="../assets/emma-dawson.jpg"
-      alt="Profile picture of Emma Dawson"
+      alt="Profile of Emma Dawson, a white woman with curly brown hair and glasses"
     />
   </section>
 </template>

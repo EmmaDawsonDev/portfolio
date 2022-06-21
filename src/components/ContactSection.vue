@@ -1,5 +1,5 @@
 <template>
-  <section data-aos="fade-up" data-aos-duration="2000">
+  <section>
     <h2>Contact</h2>
     <div class="social-links">
       <a href="https://www.linkedin.com/in/emmalearnscode/" aria-label="LinkedIn profile"

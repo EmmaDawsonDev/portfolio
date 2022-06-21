@@ -1,12 +1,9 @@
 <template>
   <header>
     <div>
-      <h1 class="animate__animated animate__fadeInUp">Emma Dawson</h1>
-
-      <p class="animate__animated animate__fadeInUp">JAVASCRIPT DEVELOPER</p>
-      <transition name="fade1" appear>
-        <a href="#projects">See My Portfolio</a>
-      </transition>
+      <h1>Emma Dawson</h1>
+      <p>JAVASCRIPT DEVELOPER</p>
+      <a href="#projects">See My Portfolio</a>
     </div>
   </header>
 </template>
@@ -61,13 +58,6 @@ a:hover {
   border: 2px solid var(--main-text-color);
 }
 
-.fade1-enter-active {
-  transition: opacity 3s ease;
-}
-
-.fade1-enter-from {
-  opacity: 0;
-}
 
 @media (min-width: 600px) {
   header {

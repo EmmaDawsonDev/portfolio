@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2 data-aos="fade-up" data-aos-duration="2000">Projects</h2>
+    <h2>Projects</h2>
     <project-article
       v-for="proj in projects"
       :key="proj.id"

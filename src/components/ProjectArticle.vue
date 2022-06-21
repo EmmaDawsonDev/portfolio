@@ -1,12 +1,12 @@
 <template>
   <article>
-    <section class="project-img" data-aos="fade-right" data-aos-duration="2000">
+    <section class="project-img">
       <img
         :src="require(`../assets/website-screenshots/${project.imgURL}.png`)"
         :alt="`${project.name} website screenshot`"
       />
     </section>
-    <section class="project-desc" data-aos="fade-left" data-aos-duration="2000">
+    <section class="project-desc">
       <h3>{{ project.name }}</h3>
       <p>
         {{ project.desc }}

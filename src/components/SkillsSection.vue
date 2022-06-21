@@ -1,5 +1,5 @@
 <template>
-  <section data-aos="fade-up" data-aos-duration="2000">
+  <section>
     <h2>Skills</h2>
     <article class="skills">
       <div class="logo">
@@ -95,7 +95,6 @@ section {
 }
 
 .skills {
-  
   display: grid;
   gap: 24px;
   grid-template-columns: repeat(3, 1fr);
