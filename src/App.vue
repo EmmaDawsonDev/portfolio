@@ -2,10 +2,12 @@
   <div class="wrapper">
     <the-nav></the-nav>
     <the-header id="top"></the-header>
-    <about-section id="about"></about-section>
-    <projects-section id="projects"></projects-section>
-    <skills-section></skills-section>
-    <contact-section id="contact"></contact-section>
+    <main>
+      <about-section id="about"></about-section>
+      <projects-section id="projects"></projects-section>
+      <skills-section></skills-section>
+      <contact-section id="contact"></contact-section>
+    </main>
   </div>
 </template>
 
