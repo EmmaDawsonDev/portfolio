@@ -2,6 +2,7 @@
   <transition name="fade" appear>
     <nav>
       <section class="hamburger" @click="toggleNav" v-if="navClosed">
+        <button class="hamburger-btn">
         <svg
           width="26"
           height="21"
@@ -13,9 +14,11 @@
           <line y1="10.5" x2="26" y2="10.5" stroke="#31D4DA" stroke-width="3" />
           <line y1="19.5" x2="26" y2="19.5" stroke="#31D4DA" stroke-width="3" />
         </svg>
+        </button>
       </section>
 
       <section class="nav-list-mobile" @click="toggleNav" v-else>
+        <button class="hamburger-btn">
         <svg
           width="29"
           height="21"
@@ -40,6 +43,7 @@
             stroke-width="3"
           />
         </svg>
+        </button>
         <ul>
           <li><a href="#top">Home</a></li>
           <li><a href="#about">about</a></li>
@@ -48,7 +52,7 @@
         </ul>
       </section>
       <section class="nav-list-desktop">
-        <a href="#top" class="logo">ED</a>
+        <a href="#top" class="logo" aria-label="home">ED</a>
         <ul>
           <li><a href="#top">Home</a></li>
           <li><a href="#about">about</a></li>
@@ -81,20 +85,20 @@ nav {
   min-height: 50px;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #000;
-  position: fixed;
-  top: 0;
-  z-index: 10;
+  background-color: #000;  
 }
+
 section {
   display: flex;
   flex-direction: column;
 }
-
-svg {
+.hamburger-btn {
+  background: none;
+  border: none;
   align-self: flex-end;
   margin: 1rem 1rem 0rem;
 }
+
 
 ul {
   list-style: none;
@@ -109,7 +113,7 @@ li {
 li:hover,
 li:focus {
   cursor: pointer;
-  background-color: rgba(255, 238, 0, 0.301);
+  text-decoration: underline;
   transition: background-color 0.5s ease;
 }
 li a {
