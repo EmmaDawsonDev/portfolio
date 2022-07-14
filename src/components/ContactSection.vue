@@ -2,13 +2,13 @@
   <section>
     <h2>Contact</h2>
     <div class="social-links">
-      <a href="https://www.linkedin.com/in/emmalearnscode/" aria-label="LinkedIn profile"
+      <a href="https://www.linkedin.com/in/emmadawsondev/" aria-label="LinkedIn profile"
         ><img src="../assets/linkedin.png" alt="linkedin"
       /></a>
-      <a href="https://github.com/emmalearnscode" aria-label="Github profile"
+      <a href="https://github.com/emmadawsondev" aria-label="Github profile"
         ><img src="../assets/github.png" alt="github"
       /></a>
-      <a href="https://twitter.com/emmalearnscode" aria-label="Twitter profile"
+      <a href="https://twitter.com/emmadawsondev" aria-label="Twitter profile"
         ><img src="../assets/twitter.png" alt="twitter"
       /></a>
       <a href="mailto:emma.l.dawson@gmail.com" aria-label="Email me"
